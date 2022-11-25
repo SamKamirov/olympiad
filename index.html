@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотосессий на любой вкус</title>
+</head>
+<body>
+    <header>
+        <div class="header_wrapper">
+            <div class="logo">
+                <img src="logo.png" alt="camera" class="logo__image">
+                <h1>Photo studio</h1>
+            </div>
+            <div class="info">
+                <button class="info__tag">Информация</button>
+            </div>
+            <div class="sidemenu">
+                <button id="closeButton"><img src="close.png" alt="" class="sidemenu__close"></button>
+                <ul class="sidemenu__list">
+                    <h1>Информация</h1>
+                    <li class="sidemenu__item"><a href="#">О нас</a></li>
+                    <li class="sidemenu__item"><a href="#">Контакты</a></li>
+                    <li class="sidemenu__item"><a href="#">Продукция</a></li>
+                    <li class="sidemenu__item"><a href="#">Залы</a></li>
+                    <li class="sidemenu__item"><a href="#">Бронирование</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="preview__wrapper">
+            <img src="preview.jpg" alt="text" class="preview">
+        </div>
+    </header>
+    <main>
+        <div class="slogan_wrapper">
+            <p class = "slogan">
+                Photo studio - это профессиональная фотосессия под ключ.
+                Photo studio - это безупречность.
+            </p>
+        </div>
+        <div class="products__description">
+            <div class="main__wrapper">
+                <img src="main.jpg" alt="">
+            </div>
+            <p>
+                Photo studio предоставляет услуги профессиональной 
+                фотосъёмки в различных студийных помещениях.
+            </p>
+        </div>
+        <div class="products">
+            <div class="product">
+                <h3 class="product__heading">Большой зал</h3>
+                <article class="product__item hidden">
+                    <img src="big_hall.jpg" alt="big_hall" class="product__image">
+                    <p class="product__description">Большой зал площадью в 100кв. метров отлично подойдёт
+                        не только для фотосессии большой семьи и компании друзей, но и
+                        для пары человек, начинающих или профессиональных моделей. 
+                    </p>
+                    <button class="product__button">Забронировать</button>
+                </article>
+            </div>
+            <div class="product">
+                <h3 class="product__heading">Средний зал</h3>
+                <article class="product__item hidden">
+                    <img src="middle_hall.jpg" alt="middle_hall" class="product__image">
+                    <p class="product__description">Средний зал площадью 50кв. метров прекрасно подойдёт для небольшой компании, семьи или пары человек. 
+                        Используя мебель, можно создать много различных интересных композиций.
+                    </p>
+                    <button class="product__button">Забронировать</button>
+                </article>
+            </div>
+            <div class="product">
+                <h3 class="product__heading">Малый зал</h3>
+                <article class="product__item hidden">
+                    <img src="little_hall.jpg" alt="little_hall" class="product__image">
+                    <p class="product__description">Малый зал идеально подойдёт для создания уютной или деловой атмосферы.</p>
+                    <button class="product__button">Забронировать</button>
+                </article>
+            </div>
+        </div>
+        <article>
+            <div class="event">
+                <h3 class="event__heading">Супер акция!</h3>
+                <p>Нужно быстрое фото высокого качества? Не беда! <br> С 20.11 по 26.11
+                скидка на быстрые фотографии 30%! <br> Если приведёте друга - скидка 40%! Успевайте!</p>
+                
+                <div class="timer">
+                    <p class="timer__value"></p>
+                </div>
+            </div>
+
+        </article>
+        <article class="advantages">
+            <div class="advantages_wrapper">
+                <p class="advantages__description">
+                    <h3>Почему нужно выбрать нас?</h3>
+                    <ol class="advantages_list">
+                        <li class="advatages__item">Более 7 лет на рынке</li>
+                        <li class="advatages__item">Профессиональная команда работников</li>
+                        <li class="advatages__item">Профессиональное оборудование</li>
+                        <li class="advatages__item">Чистые помещения с предметами интерьера</li>
+                        <li class="advatages__item">Небольшая стоимость</li>
+                    </ol>
+                </p>
+            </div>
+        </article>
+        <article class="reviews">
+            <div class="reviews_wrapper">
+                <h3 class="reviews__heading">Отзывы</h3>
+                <div class="reviews__item">
+                    <div class="reviews__logo">
+                        <img src="firstrev.jpg" alt="text">
+                        <h4>Елена</h4>
+                    </div>
+                    <p>Была здесь на фотосессии с мужем. Всё очень понравилось!</p>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__logo">
+                        <img src="secondrev.jpg" alt="text">
+                        <h4>Наталья</h4>
+                    </div>
+                    <p>Всё было прекрасно! Помещения большие. Кадры получились просто обалденные!</p>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__logo">
+                        <img src="thirdrev.jpg" alt="text">
+                        <h4>Евгений</h4>
+                    </div>
+                    <p>Видел объявление, пришёл ради интереса. Результат меня не разочаровал.</p>
+                </div>
+            </div>
+        </article>
+        <article class="feedback">
+            <h3 class="feedback__heading">Обратная связь</h3>
+            <p>Остались вопросы?</p>
+            <form action="#" class="form">
+                <div class="input__wrapper">
+                    <input type="text" class="feedback__input feedback__input--name" placeholder="Введите имя">
+                    <input type="text" class="feedback__input feedback__input--phone" placeholder="Введите телефон">
+                </div>
+                <input type="submit" class="form_button">
+            </form>
+        </article>
+        <article class="contacts">
+            <h3>Контактные данные</h3>
+            <div class="contacts__wrapper">
+                <p>Тел: 8(888)-888-88-88</p>
+                <p><a href="#" class="contact__link">VK</a></p>
+                <p><a href="#" class="contact__link">Telegram</a></p>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="useful_links">
+            <div class="links__wrapper">
+                <a href="#">О нас</a>
+                <a href="#">Услуги</a>
+                <a href="#">Примеры работ</a>
+                <a href="#">Отзывы</a>
+                <a href="#">Акции</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+</html>
