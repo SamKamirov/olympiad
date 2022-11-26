@@ -7,7 +7,7 @@ for (let index = 0; index < products.length; index++) {
     })
 }
 
-var countDownDate = new Date("Nov 26, 2022 12:00:00").getTime();
+var countDownDate = new Date("Nov 26, 2022 10:58:00").getTime();
 var timer = document.querySelector('.timer__value')
 var x = setInterval(() => {
     var now = new Date().getTime();
